@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class = "navbar open">
+        <img src = "./src/public/Logo.jpg" width = 60 height = 60 alt = "logo">
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "video.html">Video</a></li>
+            <li><a href = "audio.html">Music</a></li>
+            <li><a href = "book.html">Book</a></li>
+            <li class = "work"><a  href="#">work &bigtriangledown;</a>
+                <ul>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="math.html">Math</a></li>
+                    <li><a href="api.html">API</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div><a href = "https://ku.edu.kz">Entry</a></div>
+            <div class = "burger" id = "burger2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+    </nav>
+        
+    <main class = "container math">
+        <form>
+            <fieldset>
+            <legend>Calculator</legend>
+            <div class = "counters">
+                <div>
+                    <label for = "first">First<br>number</label>
+                    <input type = "number" id = 'first' name = 'first' placeholder = "0">
+                </div>
+                <div>
+                    <label for = "second">Second<br>number</label>
+                    <input type = "number" id = 'second' name = 'second' placeholder = "0">
+                </div>
+            </div>
+            <div class = "butcont centerbut">
+                <button id = "butplus">+</button>
+                <button id = "butminus">-</button>
+                <button id = "butmult">*</button>
+                <button id = "butdiv">/</button>
+            </div>
+            <p><span id = "result">0</span></p>
+            </fieldset>
+            <fieldset>
+                <div class = "counters">
+                    <div>
+                        <label for = "var">Variable</label>
+                        <input type = "number" id = 'var1' name = 'var1' placeholder = "0">
+                    </div>
+                    <div>
+                        <p>Value:</p>
+                        <p><span id = "vall">0</span></p>
+                    </div>
+                </div>
+                <div class = "butcont centerbut">
+                    <button id = "butcos">cos()</button>
+                    <button id = "butsin">sin()</button>
+                    <button id = "buttg">tg()</button>
+                    <button id = "butctg">ctg()</button>
+                </div>
+                </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <a href = "https://www.youtube.com/@user-jn7wv7dy2f"><img src = "./src/public/youtube.png" width = 50 height = 40></a>
+        <a href = "https://www.facebook.com/evdimid"><img src = "./src/public/facebook.png" width = 40 height = 40></a>
+        <a href = "https://www.instagram.com/evdimid"><img src = "./src/public/instagram.jpg" width = 50 height = 40></a>
+    </footer>
+    <script src = "./node js/Project/Project/js/script.js"></script>
+</body>
+</html>

@@ -272,6 +272,120 @@ footer a {
     color: rgb(248, 243, 243); /* Change the text color of the button on hover */
 }
 
+.math {
+    display: flex;
+}
+.centerbut{
+    text-align: center;
+}
+.math form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.math form fieldset {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.math form fieldset legend {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.math form fieldset .counters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.math form fieldset .counter div {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin: auto;
+}
+
+.math form fieldset .counter div label, input {
+    margin: auto;
+    text-align: center;
+}
+
+.math form fieldset .counters div input {
+    width: 70%;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.math form fieldset .butcont button {
+    display: inline;
+    width: 20%;
+    box-sizing: border-box;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.math form fieldset p {
+    display: flex;
+    margin: 0;
+}
+
+.math form fieldset p span {
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.form {
+    flex-direction: column;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form form fieldset input {
+    margin-bottom: 10px;
+}
+
+.form form fieldset legend {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form form button {
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: darkgoldenrod;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form form button:hover {
+    font-size: 1.2rem;
+    background-color: red;
+    color: rgb(248, 243, 243)
+}
 
 @media (max-width: 700px) {
     /* При ширине экрана до 700px */
