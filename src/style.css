@@ -387,6 +387,77 @@ footer a {
     color: rgb(248, 243, 243)
 }
 
+.API {
+    display: flex;
+    flex-direction: column;
+}
+.API .Petro {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px 
+}
+.API .Petro img, span {
+    margin: auto;
+    width: 50%;
+    height: auto; 
+}
+.API .Tokyo {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.API .Tokyo img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Tucson {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.API .Tucson img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Petro img {
+    border-radius: 8px;
+}
+
+.API .Tucson img {
+    border-radius: 8px;
+}
+.API .Tokyo img {
+    border-radius: 8px;
+}
+.API .Petro span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.API .Tucson span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.API .Tokyo span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 @media (max-width: 700px) {
     /* При ширине экрана до 700px */
     .form form fieldset {
@@ -514,6 +585,7 @@ footer a {
         bottom: 20px;
     }
 
+    
     .burger span:nth-child(1){
         transform: translateY(10px);
     }
@@ -587,7 +659,29 @@ footer a {
     .navbar.open .burger span:nth-child(3) {
         transform:translateY(0) rotate(-45deg);
     }
-}
+
+
+    .API .Tokyo {
+        width: 100%;
+    }
+    .API .Petro {
+        width: 100%;
+    }
+    .API .Tucson {
+        width: 100%;
+    }
+    .API .Petro span {
+        font-size: 1.05rem;
+    }
+
+    API .Tucson span {
+        font-size: 1.05rem;
+    }
+
+    .API .Tokyo span {
+        font-size: 1.05rem;
+    }
+}   
 
 @media (min-width: 700px) and (max-width: 900px) {
     /* При ширине экрана от 700px до 900px */
