@@ -226,7 +226,7 @@ footer a {
 }
 
 .burger {
-    display:block;
+    display: none;
 }
 
 .form {
